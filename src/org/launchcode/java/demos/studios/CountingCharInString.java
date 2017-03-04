@@ -17,7 +17,6 @@ public class CountingCharInString {
 
     private static HashMap<Character, Integer> countChar(Scanner myString) {
         String stringForUse = myString.nextLine().toUpperCase();
-        char[] chars = stringForUse.toCharArray();
         HashMap<Character, Integer> charCount = new HashMap<>();
         for (int i = 0; i < stringForUse.length(); i++) {
             char charForCheck = stringForUse.charAt(i);
